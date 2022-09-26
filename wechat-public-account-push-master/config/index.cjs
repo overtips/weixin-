@@ -42,10 +42,10 @@ const USER_CONFIG = {
     poetry: false,
 
     /** 星座运势 */
-    horoscope: true,
+    horoscope: false,
 
     /** 生日消息和节日消息 */
-    birthdayMessage: true,
+    birthdayMessage: false,
 
     // 学生课表
     courseSchedule: false,
@@ -56,15 +56,15 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '半颗呆瓜',
+      name: 'D.',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oacWs51peW4mNxwB123UczcalWsk',
+      id: 'oacWs55nKMFgRSNmgPyBxDfTxj8o',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'vcKdxiDbPjCqAMXJ2UZ5lIof3RjUTyXWDxuRzqSie20',
+      useTemplateId: 'oSajaqVw7GuEweuNhK-XXc0amXOZX5SAlFY0lgoFyns',
       // 所在省份
       province: '山东',
       // 所在城市
-      city: '菏泽',
+      city: '日照',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '4-7',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
